@@ -25,8 +25,8 @@ public class DriverFactory {
 		System.out.println("browser value is:"+browser);
 		if(browser.equals("chrome"))
 		{
-			//WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.driver","../../Downloads/chromedriver-mac-x64/chromedriver");
+			WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver","../../Downloads/chromedriver-mac-x64/chromedriver");
 			//System.out.println("Updating Chrome Version");
 
 			tlDriver.set(new ChromeDriver());
