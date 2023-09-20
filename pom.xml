@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>CucumberNew2</groupId>
-	<artifactId>CucumberNew</artifactId>
+	<artifactId>CucumberNew2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>CucumberNew2</name>
@@ -19,7 +19,7 @@
 			    <version>3.0.0</version>
 	      		<configuration>
 					  <includes>
-							<include>**/TestRunner.java</include>
+							<include>**/MyTestRunner.java</include>
 						</includes>
             	</configuration>
 		</plugin>
